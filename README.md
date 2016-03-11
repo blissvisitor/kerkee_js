@@ -24,7 +24,7 @@
 
 		`npm install -g gulp`
 
-3、安装依赖
+3、cd到core目录，安装依赖
 
 		`npm install`
 
