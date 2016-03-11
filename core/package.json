@@ -1,9 +1,9 @@
 {
   "name": "kerkee",
   "project": "kerkee",
-  "version": "1.1.0",
-  "host": "http://10.0.69.79",
-  "path": "/home/huangjian/workstation/bridge/newssdk/bin",
+  "version": "0.9.0",
+  "host": "",
+  "path": "",
   "devDependencies": {
     "del": "^1.1.1",
     "gulp": "^3.9.0",
