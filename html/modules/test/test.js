@@ -9,7 +9,7 @@ requirejs.config({
         core: "../core",
         api:"../core/coreApi",
         when:"lib/when",
-        bridgeLib: "../core/bridgeLib",
+        kerkee: "../core/kerkee",
         swiper: "lib/swiper.min",
         zepto:"lib/zepto.min",
         lazyload:"lib/jquery.lazyload",
@@ -31,8 +31,8 @@ requirejs.config({
     },
 
     shim: {
-        "bridgeLib": {
-            exports: "bridgeLib"
+        "kerkee": {
+            exports: "kerkee"
         },
 
         'zepto':{

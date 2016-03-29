@@ -578,7 +578,7 @@ gulp.task("cleanTarget", function () {
 
 
 gulp.task("copylib", function () {
-    return gulp.src(corePath + "/bridgeLib.js").pipe(gulp.dest(devPath + "/attach/js"));
+    return gulp.src(corePath + "/kerkee.js").pipe(gulp.dest(devPath + "/attach/js"));
 });
 /*
  * @desc 将所有资源项目用r.js进行压缩合并

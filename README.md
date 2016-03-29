@@ -6,9 +6,9 @@
 >1. 使用MVC模式，高度解耦
 >2. 引入webapp概念，配合kerkee进行无缝增量更新
 >3. 本框架目标包为html.zip，无进行加密，可自行对zip包进行文件加密
->4. 可作为kerkee的h5框架使用，也可单独使用。当然kerkee native的H5可以不使用此框架，你只需引入bridgeLib.js到你的工程中即可
+>4. 可作为kerkee的h5框架使用，也可单独使用。当然kerkee native的H5可以不使用此框架，你只需引入kerkee.js到你的工程中即可
 >5. 使用zepto underscore jquery atrtemplate等框架
->6. 使用kerkee的bridgeLib用于配合kerkee环境的搭建
+>6. 使用kerkee的kerkee.js用于配合kerkee环境的搭建
 >7. 使用requirejs amd模块加载器
 >8. 使用gulp构建
 >9. 展示了页面切分和逻辑模块划分（html、css、js），及如何根据实际切换模块。适用团队分工合作
