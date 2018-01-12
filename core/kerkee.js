@@ -174,7 +174,7 @@
 		});
 	}
 
-    if (Promise) {
+    if (typeof Promise === 'function') {
         ApiBridge.Promise = Promise
     } else {
         ApiBridge.Promise = easyPromise;
