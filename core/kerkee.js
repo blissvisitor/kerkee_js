@@ -355,7 +355,7 @@
 		});
 	}
 
-	_XMLHttpRequest.globalId = 0;
+	_XMLHttpRequest.globalId = Math.floor(Math.random()*1000);
 	_XMLHttpRequest.cache = [];
 	_XMLHttpRequest.setProperties = function(jsonObj)
 	{
